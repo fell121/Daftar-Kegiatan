@@ -1,0 +1,25 @@
+_newItemEntry {
+  position: sticky;
+  top: 0;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
+_newItemEntry form {
+  display: flex;
+  justify-content: safe-between;
+}
+_newItemEntry form label {
+  position: absolute;
+  left: -10000px;
+}
+_newItemEntry form input[type=text] {
+  width: 80%;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  padding: 0.75rem;
+  outline: none;
+}
+_newItemEntry form input[type=text]:focus,
+_newItemEntry form input[type=text]:hover {
+  box-shadow: 4px 2px 5px #000;
+}/*# sourceMappingURL=newItemEntry.css.map */
